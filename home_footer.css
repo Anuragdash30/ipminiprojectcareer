@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  color: #d9d9d9;
+  box-sizing: border-box;
+}
+html,
+body{
+    height: 100%;
+    padding: 0px;
+    margin: 0%;
+}
+.page{
+    min-height: 0%;
+    z-index: -1;
+}
+.content1{
+  height:1000px;
+}
+footer{
+  position: relative;
+  bottom: 0px;
+  width: 100%;
+  background:#242526;
+  padding: 40px;
+  padding-bottom: 40px;
+  z-index: -1;
+}
+.foot{
+    bottom: 0px;
+    position: relative;
+    height: 105px;
+    background-color: black;
+    width: 100%;
+    padding-top: 37px;
+    display: inline-block;
+    z-index: -1;
+}
+.main-content{
+  display: flex;
+}
+.main-content .box{
+  flex-basis: 50%;
+  padding: 10px 20px;
+}
+.box h2{
+  font-family: "Batang";
+  font-size: 21px;
+  color:#BDB76B;
+}
+.box .content{
+  margin: 25px 0 0 0;
+  position: relative;
+}
+.box .content:before{
+  position: absolute;
+  content: '';
+  top: -10px;
+  height: 0.17em;
+  width: 100%;
+  background: #1a1a1a;
+}
+.box .content:after{
+  position: absolute;
+  content: '';
+  height: 0.17em;
+  width: 15%;
+  background:   #B22222;
+  top: -10px;
+  margin-bottom: 25px;
+}
+.left .content p{
+  text-align: justify;
+  color:  #656565;
+  font-family: 'Poppins';
+  padding-top: 22px;
+    
+}
+.left .content .social{
+  margin: 20px 0 0 0;
+}
+.left .content .social a{
+  padding: 0 2px;
+  
+}
+.left .content .social a span{
+  height: 40px;
+  width: 40px;
+  background: #1a1a1a;
+  line-height: 70px;
+  text-align: center;
+  font-size: 18px;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+.left .content .social a span:hover{
+  background: #033619;
+}
+.center .content .fas{
+  font-size: 0.85rem;
+  background: #1a1a1a;
+  height: 38px;
+  width: 38px;
+  line-height: 0px;
+  text-align: center;
+  border-radius: 50%;
+  transition: 0.3s;
+  cursor: pointer;
+  padding-top: 20px;
+}
+.center .content .fas:hover{
+  background-color:     #556B2F;
+}
+.center .content .text{
+  font-size: 1rem;
+  font-weight: 500;
+  padding-left: 10px;
+  color:  #656565;
+  font-family: 'Poppins';
+  padding-top: 25px;
+}
+.center .content .phone{
+  margin: 15px 0;
+}
+.right form .text{
+  font-size: 1.0625rem;
+  margin-bottom: 2px;
+  color: #656565;
+  font-family: 'Poppins';
+  padding-top: 22px;
+}
+
+.right form input{
+  width: 80%;
+  font-size: 0.9rem;
+  background: #ffffff;
+  padding-left: 10px;
+  border: 1px solid #222222;
+  border-radius: 10px;
+  font-family: 'Poppins';
+}
+.right form input{
+  height: 35px;
+}
+.right form .btn{
+  margin-top: 10px;
+}
+.right form .btn button{
+  height: 40px;
+  width: 35%;
+  border: none;
+  outline: none;
+  background:   #B22222;  /* fallback for old browsers */
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: .3s;
+  border-radius: 50px;
+}
+.right form .btn button:hover{
+  background: #800000;
+}
+.bottom center{
+  padding: 5px;
+  font-size: 0.9375rem;
+  background: #151515;
+}
+.bottom center span{
+  color: #656565;
+}
+.bottom center a{
+  color:  #B22222;
+  text-decoration: none;
+}
+.bottom center a:hover{
+  text-decoration: underline;
+}
+.social ul {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0;
+    margin: 0;
+    display: flex;
+    
+}
+.social ul li {
+    list-style: none;
+    margin: 0 10px;
+}
+.social ul li .fa {
+    color: #000000;
+    font-size: 15px;
+    line-height: 31px;
+    transition: .5s;
+}
+.social ul li .fa:hover {
+    color: #ffffff;
+}
+.social ul li a {
+    position: relative;
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color:#ffffff;
+    text-align: center;
+    transition: 0.5s;
+    transform: translate(0,0px);
+    box-shadow: 0px 4px 2px rgba(255, 255, 255, 0.5);
+}
+.social ul li a:hover {
+    transform: rotate(0deg) skew(0deg) translate(0, -10px);
+}
+.social ul li:nth-child(1) a:hover {
+    background-color: #3b5999;
+}
+.social ul li:nth-child(2) a:hover {
+    background-color: #E1306C;
+}
+.social ul li:nth-child(3) a:hover {
+    background-color: #cd201f;;
+}
+.social ul li:nth-child(4) a:hover {
+    background-color: #55acee;;
+}
+.social ul li:nth-child(5) a:hover {
+    background-color: #DD4B39;
+}
+
+@media screen and (max-width: 900px) {
+  footer{
+    position: relative;
+    bottom: 0px;
+  }
+  .main-content{
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .main-content .box{
+    margin: 13px 0;
+  }
+}
+input[type="text"] {
+    width: 100%;
+    border: 2px solid #aaa;
+    border-radius: 4px;
+    margin: 8px 0;
+    outline: none;
+    padding: 8px;
+    box-sizing: border-box;
+    transition: 0.3s;
+}
+  
+input[type="text"]:focus {
+    border-color: black;
+    box-shadow: 0 0 8px 0 black;
+}
+  
+.inputWithIcon input[type="text"] {
+    padding-left: 40px;
+    color:#242526;
+}
+  
+  .inputWithIcon {
+    position: relative;
+    padding-top: 20px;
+}
+  
+.inputWithIcon i {
+    position: absolute;
+    left: 2px;
+    top: 27px;
+    padding: 9px 8px;
+    color:#242526;
+    transition: 0.3s;
+}
+  
+.inputWithIcon input[type="text"]:focus + i {
+    color: #000000;
+}
+.bottom-text{
+    text-align: center;
+    font-size: 11px;
+    color:  #656565;
+}
+  

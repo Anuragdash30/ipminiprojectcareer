@@ -1,0 +1,240 @@
+.slider{
+    position: relative;
+    margin-bottom: 75px;
+}
+.slider .next{
+    position: absolute;
+    top: 50%;
+    right: 70px;
+    font-size: 1.1em;
+    color: #343434;
+    cursor: pointer;
+}
+.slider .prev{
+    position: absolute;
+    top: 50%;
+    left: 70px;
+    font-size: 1.1em;
+    color: #343434;
+    cursor: pointer;
+}
+.slider .next1{
+    position: absolute;
+    top: 50%;
+    right: 70px;
+    font-size: 1.1em;
+    color: #343434;
+    cursor: pointer;
+}
+.slider .prev1{
+    position: absolute;
+    top: 50%;
+    left: 70px;
+    font-size: 1.1em;
+    color: #343434;
+    cursor: pointer;
+}
+.slider .slider-title{
+    text-align: center;
+    margin: 30px auto;
+    font-family: "Poppins";
+    color: 	#800000;;
+}
+.slider .ca-video{
+    width: 84%;
+    height: 300px;
+    overflow: hidden;
+    margin: 0px auto;
+    padding: 10px 0 10px 0;
+}
+.slider .ca-video .video{
+    width: 300px;
+    height: 280px;
+    display: inline-block;
+    margin: 0px 10px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0.65rem 0.65rem 0.65rem -0.65rem #242526;
+}
+.slider .ca-video .video .video1{
+    width: 100%;
+    height: 200px;
+    padding-top:0 ;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.slider .ca-video .video .info{
+    height: 70px;
+    text-align: center;
+    padding: 15px 10px 20px 10px;
+    overflow: hidden;
+}
+.slider .ca-video .video .info a{
+    text-decoration: none;
+    color:	#000000;
+    font-size: 15px;
+}
+.slider .ca-video .video .info a:hover{ 
+    color: 	#008080;
+}
+
+.slider .ca-scope{
+    width: 84%;
+    height: 300px;
+    overflow: hidden;
+    margin: 0px auto;
+    padding: 10px 0 10px 0;
+}
+.slider .ca-scope .video{
+    width: 300px;
+    height: 280px;
+    display: inline-block;
+    margin: 0px 10px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0.65rem 0.65rem 0.65rem -0.65rem #242526;
+}
+.slider .ca-scope .video .video1{
+    width: 100%;
+    height: 200px;
+    padding-top:0 ;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.slider .ca-scope .video .info{
+    height: 70px;
+    text-align: center;
+    padding: 15px 10px 20px 10px;
+    overflow: hidden;
+}
+.slider .ca-scope .video .info a{
+    text-decoration: none;
+    color:	#000000;
+    font-size: 15px;
+}
+.slider .ca-scope .video .info a:hover{ 
+    color: 	#008080;
+}
+
+.slider .ca-article{
+    width: 60%;
+    height: 300px;
+    overflow: hidden;
+    margin: 0px auto;
+    padding: 10px 0 10px 0;
+}
+.slider .ca-article .video{
+    width: 330px;
+    height: 280px;
+    display: inline-block;
+    margin: 0px 22px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0.65rem 0.65rem 0.65rem -0.65rem #242526;
+}
+.slider .ca-article .video .video1{
+    width: 100%;
+    height: 200px;
+    padding-top:0 ;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.slider .ca-article .video .info{
+    height: 70px;
+    text-align: center;
+    padding: 15px 10px 20px 10px;
+    overflow: hidden;
+}
+.slider .ca-article .video .info a{
+    text-decoration: none;
+    color:	#000000;
+    font-size: 15px;
+}
+.slider .ca-article .video .info a:hover{ 
+    color: 	#008080;
+}
+
+
+
+.slider .ca-college{
+    width: 84%;
+    height: 300px;
+    overflow: hidden;
+    margin: 0px auto;
+    padding: 10px 0 10px 0;
+}
+.slider .ca-college .video{
+    width: 300px;
+    height: 280px;
+    display: inline-block;
+    margin: 0px 10px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0.65rem 0.65rem 0.65rem -0.65rem #242526;
+}
+.slider .ca-college .video .video1{
+    width: 100%;
+    height: 200px;
+    padding-top:0 ;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.slider .ca-college .video .info{
+    height: 70px;
+    text-align: center;
+    padding: 15px 10px 20px 10px;
+    overflow: hidden;
+}
+.slider .ca-college .video .info a{
+    text-decoration: none;
+    color:	#000000;
+    font-size: 15px;
+}
+.slider .ca-college .video .info a:hover{ 
+    color: 	#008080;
+}
+
+@media screen and (max-width: 578px){
+    .slider .ca-scope{
+        width: 290px;
+    }
+    .slider .ca-video{
+        width: 290px;
+    }
+    .slider .ca-college{
+        width: 290px;
+    }
+    .slider .next{
+        margin-right: -1.1em;
+    }
+    .slider .prev{
+        margin-left: -1.1em;
+    }
+    .slider .next1{
+        margin-right: -1.1em;
+    }
+    .slider .prev1{
+        margin-left: -1.1em;
+    }
+}
+@media screen and (max-width: 805px){
+    .slider .ca-article{
+        width: 84%;
+    }
+    .slider .ca-article .video{
+        width: 300px;
+        margin: 0px 10px;
+    }
+    .slider .next{
+        right: 40px;
+    }
+    .slider .prev{
+        left: 40px;
+    }
+    .slider .next1{
+        right: 40px;
+    }
+    .slider .prev1{
+        left: 40px;
+    }
+}
