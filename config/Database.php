@@ -3,9 +3,9 @@ class Database{
 	
 	$host  = 'sql12.freemysqlhosting.net';
     $user  = 'sql12381650';
-	$password   = "AcbcLhuB5u";
-    $database  = "sql12381650"; 
-    
+	$password   = 'AcbcLhuB5u';
+    $database  = 'sql12381650'; 
+   
     public function getConnection(){		
 		$conn = new mysqli($this->host, $this->user, $this->password, $this->database);
 		if($conn->connect_error){
