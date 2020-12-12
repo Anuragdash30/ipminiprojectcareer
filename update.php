@@ -4,11 +4,11 @@ session_start();
     header('location: check.php');
   }
 
-   $con = mysqli_connect('localhost','root');
+   $con =mysqli_connect('sql12.freemysqlhosting.net', 'sql12381650', 'AcbcLhuB5u', 'sql12381650');
    	// if($con){
    	// 	echo"connection";
    	// }
-     mysqli_select_db($con,'registration');
+     
      
    ?>
    <?php

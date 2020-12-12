@@ -18,8 +18,8 @@ $Status = "";
 $errors = array(); 
 
 // connect to the database
-$db = mysqli_connect('localhost', 'root', '', 'registration');
-$db2 = mysqli_connect('localhost', 'root', '', 'webdamn_demo');
+$db = mysqli_connect('sql12.freemysqlhosting.net', 'sql12381650', 'AcbcLhuB5u', 'sql12381650');
+$db2 = mysqli_connect('sql12.freemysqlhosting.net', 'sql12381650', 'AcbcLhuB5u', 'sql12381650');
 
 // REGISTER USER
 if (isset($_POST['reg_user'])) {
@@ -77,8 +77,8 @@ if (isset($_POST['reg_user'])) {
   	$query = "INSERT INTO users (First_name, Last_name, Email_id,Password,Phone_no,College_school,Sure_unsure,Interests,Username) 
   			  VALUES('$First_name', '$Last_name', '$Email_id','$Password','$Phone_no','$College_school','$Sure_unsure','$Interests','$Username')";
     mysqli_query($db, $query);
-    $comn=mysqli_connect('localhost','root');
-    mysqli_select_db($comn,'registration');
+    $comn=mysqli_connect('sql12.freemysqlhosting.net', 'sql12381650', 'AcbcLhuB5u', 'sql12381650');
+    
     $_SESSION['Username'] = $Username;
     $name= $_SESSION['Username'];
     $idse = "select * from users where Username='$name'";

@@ -136,7 +136,7 @@ session_start();
           </tr>
           <?php
 
-          $db = mysqli_connect('localhost', 'root', '', 'registration');
+          $db = mysqli_connect('sql12.freemysqlhosting.net', 'sql12381650', 'AcbcLhuB5u', 'sql12381650');
           $query = "SELECT * FROM users";
           $results = mysqli_query($db, $query);
           $user = mysqli_fetch_array($results);

@@ -6,8 +6,8 @@
   {
     header('location: admin_page.php');
   }
-    $comn=mysqli_connect('localhost','root');
-    mysqli_select_db($comn,'registration');
+    $comn=mysqli_connect('sql12.freemysqlhosting.net', 'sql12381650', 'AcbcLhuB5u', 'sql12381650');
+   
     $name= $_SESSION['Username'];
     $idse = "select * from users where Username='$name'";
     $ansresults = mysqli_query($comn,$idse);
@@ -18,9 +18,9 @@
       header('location: resour.php');
     }
     
-    $con=mysqli_connect('localhost','root');
+    $con=mysqli_connect('sql12.freemysqlhosting.net', 'sql12381650', 'AcbcLhuB5u', 'sql12381650');
   
-    mysqli_select_db($con,'registration');
+    
   }
   else{
     header('location: register.php');

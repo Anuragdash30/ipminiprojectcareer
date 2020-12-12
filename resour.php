@@ -14,11 +14,11 @@ else
 
 
 
-$con = mysqli_connect('localhost','root');
+$con = mysqli_connect('sql12.freemysqlhosting.net', 'sql12381650', 'AcbcLhuB5u', 'sql12381650');
 // if($con){
 // 	echo"connection";
 // }
-mysqli_select_db($con,'registration');
+
 $now=$_SESSION['Username'];
 $q8= " select * from users where Username='$now'";
 $ansresul = mysqli_query($con,$q8);
