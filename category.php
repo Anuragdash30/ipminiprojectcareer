@@ -67,7 +67,7 @@ else
 
 <div class="container">		
 	<div class="row">
-		<h2>Discussion Forum with PHP and MySQL</h2>	
+		<h2>Discussion Forum nextstep</h2>	
 		<!-- Category -->
 		<?php if(empty($_GET['category_id'])) { ?>
 			<div class="single category">			

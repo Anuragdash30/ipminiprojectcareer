@@ -75,7 +75,7 @@ else
 <?php include ('inc/container.php'); ?>
 <div class="container">		
 	<div class="row">
-		<h2>Discussion Forum</h2>
+		<h2>Discussion Forum nextstep</h2>
 		<div id="postLsit">				
 		<?php if(!empty($_GET['topic_id'])) { ?>	   
 		   <div class="posts list">
