@@ -1,10 +1,10 @@
 <?php
 class Database{
 	
-	private $host  = 'sql12.freemysqlhosting.net';
-    private $user  = 'sql12381650';
-    private $password   = "AcbcLhuB5u";
-    private $database  = "sql12381650"; 
+	private $host  = 'localhost';
+    private $user  = 'root';
+    private $password   = "";
+    private $database  = "webdamn_demo"; 
     
     public function getConnection(){		
 		$conn = new mysqli($this->host, $this->user, $this->password, $this->database);
