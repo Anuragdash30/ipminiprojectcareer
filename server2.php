@@ -3,6 +3,7 @@ session_start();
   
 
    $con = mysqli_connect('sql12.freemysqlhosting.net', 'sql12381650', 'AcbcLhuB5u', 'sql12381650');
+?>
 <?php
 if(isset($_GET['edit'])){
   $User=$_GET['edit'];

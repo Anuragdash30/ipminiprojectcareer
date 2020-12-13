@@ -150,8 +150,10 @@ if (isset($_POST['login_user'])) {
                 $ansresults = mysqli_query($con,$idse);
                 $rows = mysqli_fetch_array($ansresults);
                 $_SESSION['User_id'] = $rows['User_id'];
-          header('location:resour.php');}
+          header('location:resour.php');
+        }
           else{
+            unset($_SESSION["Username"]);
             echo "Your account was disabled";
             header('location:login.php');
           }
