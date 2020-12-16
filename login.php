@@ -124,11 +124,11 @@ if (isset($_SESSION['Username'])) {
       
         <div class="field">
           <span class="fa fa-user"></span>
-          <input id="text" type="text" id="Username" name="Username">
+          <input id="text" type="text" id="Username"placeholder="Username" name="Username">
         </div>
 <div class="field space">
           <span class="fa fa-lock"></span>
-          <input id="text2" type="password"  class="pass-key"  name="Password">
+          <input id="text2" type="password"  class="pass-key" placeholder="Password" name="Password">
           <span class="show">SHOW</span>
         </div>
         <?php if (isset($_SESSION['errors'])): ?>
