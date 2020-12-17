@@ -162,7 +162,7 @@ session_start();
           <tr>
             <th>Names</th>
             <th>Interests</th>
-            <th>Joining Date</th>
+            <th>Status</th>
             <th>Action</th>
           </tr>
           <?php
