@@ -132,9 +132,9 @@ if (isset($_SESSION['Username'])) {
           <span class="show">SHOW</span>
         </div>
         <?php if (isset($_SESSION['errors'])): ?>
-    <div class="form-errors">
+    <div class="form-errors" style="color:white;">
         <?php foreach($_SESSION['errors'] as $error): ?>
-            <p><?php echo $error;
+            <p ><?php echo $error;
              ?></p>
         <?php endforeach; ?>
     </div>
