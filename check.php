@@ -7,7 +7,14 @@ session_start();
 	}
 	if(!empty($_SESSION['interest']))
   {
-	header('location: resour.php');
+    if(!isset($_SESSION['update']))
+    {
+  header('location: resour.php');
+    }
+    else
+    {
+      unset($_SESSION['update']);
+    }
   }
   
 

@@ -13,9 +13,15 @@
     $ansresults = mysqli_query($comn,$idse);
     $rows = mysqli_fetch_array($ansresults);
     if(!empty($rows['Interests']))
-    {
+    { if($_GET['change']!='reapti')
+      {
+        
       $_SESSION['interest']=$rows['Interests'];
       header('location: resour.php');
+      }
+      else{
+      $_SESSION['update']=11;
+      }
     }
     
     $con=mysqli_connect('sql12.freemysqlhosting.net', 'sql12381650', 'AcbcLhuB5u', 'sql12381650');

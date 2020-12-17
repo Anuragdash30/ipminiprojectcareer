@@ -130,6 +130,10 @@ if (isset($_POST['login_user'])) {
           if(!empty($_POST['Username'])||!empty($_POST['Password']))
           {
           $_SESSION['errors'] = array("Your username or password was incorrect.");
+          }
+          elseif(empty($_POST['Username'])&&empty($_POST['Password']))
+          {
+            unset($_SESSION['errors']);
           } 
           header("Location:login.php");
           
@@ -150,9 +154,10 @@ if (isset($_POST['login_user'])) {
                 $_SESSION['User_id'] = $rows['User_id'];
           header('location:resour.php');
         }
-          else{
+          elseif($row2['action']=='disable')
+          {
             unset($_SESSION["Username"]);
-            echo "Your account was disabled";
+            $_SESSION['errors'] = array("Your account was disabled.");
             header('location:login.php');
           }
         }

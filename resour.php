@@ -1,4 +1,3 @@
-
 <?php
 session_start(); 
 if (isset($_SESSION['Username'])){  
@@ -183,6 +182,7 @@ background: linear-gradient(to right, #D4D3DD, #EFEFBB); /* W3C, IE 10+/ Edge, F
                 <ul class="mega-links">
                   <li><a href="#ca-col">Colleges</a></li>
                   <li><a href="#ca-scope">Scope</a></li>
+                  <li><a href="index.php?change=reapti">Re-Aptitude</a></li>
                 </ul>
               </div>
             </div>
@@ -190,6 +190,7 @@ background: linear-gradient(to right, #D4D3DD, #EFEFBB); /* W3C, IE 10+/ Edge, F
         </li>
         <li><a href="#"><i class="fas fa-pencil-alt"></i> Hi, <?php echo $_SESSION['Username'] ?></a></li>
         <li><a href="category.php"><i class="fas fa-comment"></i> Discuss</a></li>
+        
         <li><a href="logout.php" style="background:  #B22222 ;"><i class="fas fa-user"></i> Log Out</a></li>
       </ul>
       <label for="menu-btn" class="btn menu-btn"><i class="fas fa-bars"></i></label>
@@ -227,7 +228,7 @@ background: linear-gradient(to right, #D4D3DD, #EFEFBB); /* W3C, IE 10+/ Edge, F
       <div class="video">
         <img src="images/v1.jpg" alt="" class="video1">
         <div class="info">
-          <h5><a href="<?php echo ($cour[0]); ?>"><?php echo ($Tit[0]); ?>
+          <h5><a href="<?php echo ($cour[0]); ?>" target="_blank"><?php echo ($Tit[0]); ?>
         </h5></a>
           
         </div>
@@ -235,20 +236,20 @@ background: linear-gradient(to right, #D4D3DD, #EFEFBB); /* W3C, IE 10+/ Edge, F
       <div class="video">
         <img src="images/v2.jpg" alt="" class="video1">
         <div class="info">
-          <h5><a href="<?php echo ($cour[1]); ?>"><?php echo ($Tit[1]); ?></h5></a>
+          <h5><a href="<?php echo ($cour[1]); ?>" target="_blank"><?php echo ($Tit[1]); ?></h5></a>
           
         </div>
       </div>
       <div class="video">
         <img src="images/v3.jpg" alt="" class="video1">
         <div class="info">
-          <h5><a href="<?php echo ($cour[2]); ?>"><?php echo ($Tit[2]); ?></h5></a>
+          <h5><a href="<?php echo ($cour[2]); ?>" target="_blank"><?php echo ($Tit[2]); ?></h5></a>
         </div>
       </div>
       <div class="video">
         <img src="images/v4.jpg" alt="" class="video1">
         <div class="info">
-          <h5><a href="<?php echo ($cour[3]); ?>"><?php echo ($Tit[3]); ?></h5></a>
+          <h5><a href="<?php echo ($cour[3]); ?>" target="_blank"><?php echo ($Tit[3]); ?></h5></a>
         </div>
       </div>
     </div>
@@ -276,13 +277,13 @@ background: linear-gradient(to right, #D4D3DD, #EFEFBB); /* W3C, IE 10+/ Edge, F
       <div class="video">
         <img src="images/arti1.jpg" alt="" class="video1">
         <div class="info">
-          <h5><a href="<?php echo ($ar[0]); ?>"><?php echo ($Titar[0]); ?></h5></a>
+          <h5><a href="<?php echo ($ar[0]); ?>" target="_blank"><?php echo ($Titar[0]); ?></h5></a>
         </div>
       </div>
       <div class="video">
         <img src="images/arti2.jpg" alt="" class="video1">
         <div class="info">
-          <h5><a href="<?php echo ($ar[1]); ?>"><?php echo ($Titar[1]); ?> </h5></a>
+          <h5><a href="<?php echo ($ar[1]); ?>" target="_blank"><?php echo ($Titar[1]); ?> </h5></a>
         </div>
       </div>
     </div>
@@ -312,31 +313,31 @@ background: linear-gradient(to right, #D4D3DD, #EFEFBB); /* W3C, IE 10+/ Edge, F
       <div class="video">
         <img src="images/c1.jpg" alt="" class="video1">
         <div class="info">
-          <h5><a href="<?php echo ($col[0]); ?>"><?php echo ($Titcol[0]); ?></h5></a>
+          <h5><a href="<?php echo ($col[0]); ?>" target="_blank"><?php echo ($Titcol[0]); ?></h5></a>
         </div>
       </div>
       <div class="video">
         <img src="images/c4.jpg" alt="" class="video1">
         <div class="info">
-          <h5><a href="<?php echo ($col[1]); ?>"><?php echo ($Titcol[1]); ?></h5></a>
+          <h5><a href="<?php echo ($col[1]); ?>" target="_blank"><?php echo ($Titcol[1]); ?></h5></a>
         </div>
       </div>
       <div class="video">
         <img src="images/c3.jpg" alt="" class="video1">
         <div class="info">
-          <h5><a href="<?php echo ($col[2]); ?>"><?php echo ($Titcol[2]); ?></h5></a>
+          <h5><a href="<?php echo ($col[2]); ?>" target="_blank"><?php echo ($Titcol[2]); ?></h5></a>
         </div>
       </div>
       <div class="video">
         <img src="images/c5.jpg" alt="" class="video1">
         <div class="info">
-          <h5><a href="<?php echo ($col[3]); ?>"><?php echo ($Titcol[3]); ?></h5></a>
+          <h5><a href="<?php echo ($col[3]); ?>" target="_blank"><?php echo ($Titcol[3]); ?></h5></a>
         </div>
       </div>
       <div class="video">
         <img src="images/c2.png" alt="" class="video1">
         <div class="info">
-          <h5><a href="<?php echo ($col[4]); ?>"><?php echo ($Titcol[4]); ?></h5></a>
+          <h5><a href="<?php echo ($col[4]); ?>" target="_blank"><?php echo ($Titcol[4]); ?></h5></a>
         </div>
       </div>
     </div>
@@ -363,7 +364,7 @@ background: linear-gradient(to right, #D4D3DD, #EFEFBB); /* W3C, IE 10+/ Edge, F
       <div class="video">
         <img src="images/s1.jpg" alt="" class="video1">
         <div class="info">
-          <h5><a href="#"><?php echo ($Titsco[0]); ?></h5></a>
+          <h5><a href="#" ><?php echo ($Titsco[0]); ?></h5></a>
         </div>
       </div>
       <div class="video">
@@ -592,4 +593,3 @@ $('.ca-scope').slick({
 </script>
 </body>
 </html>
-
