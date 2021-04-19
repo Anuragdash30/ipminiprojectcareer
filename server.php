@@ -18,8 +18,8 @@ $Status = "";
 $errors = array(); 
 
 // connect to the database
-$db = mysqli_connect('sql12.freemysqlhosting.net', 'sql12381650', 'AcbcLhuB5u', 'sql12381650');
-$db2 = mysqli_connect('sql12.freemysqlhosting.net', 'sql12381650', 'AcbcLhuB5u', 'sql12381650');
+$db = mysqli_connect('localhost', 'id16643964_sql12381650', 'lgm4[>)}]jT8n=CQ', 'id16643964_sqlhosted');
+$db2 = mysqli_connect('localhost', 'id16643964_sql12381650', 'lgm4[>)}]jT8n=CQ', 'id16643964_sqlhosted');
 
 // REGISTER USER
 if (isset($_POST['reg_user'])) {
@@ -77,7 +77,7 @@ if (isset($_POST['reg_user'])) {
   	$query = "INSERT INTO users (First_name, Last_name, Email_id,Password,Phone_no,College_school,Sure_unsure,Interests,Username) 
   			  VALUES('$First_name', '$Last_name', '$Email_id','$Password','$Phone_no','$College_school','$Sure_unsure','$Interests','$Username')";
     mysqli_query($db, $query);
-    $comn=mysqli_connect('sql12.freemysqlhosting.net', 'sql12381650', 'AcbcLhuB5u', 'sql12381650');
+    $comn=mysqli_connect('localhost', 'id16643964_sql12381650', 'lgm4[>)}]jT8n=CQ', 'id16643964_sqlhosted');
     
     $_SESSION['Username'] = $Username;
     $name= $_SESSION['Username'];

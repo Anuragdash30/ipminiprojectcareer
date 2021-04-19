@@ -2,7 +2,7 @@
 session_start();
   
 
-   $con = mysqli_connect('sql12.freemysqlhosting.net', 'sql12381650', 'AcbcLhuB5u', 'sql12381650');
+   $con = mysqli_connect('localhost', 'id16643964_sql12381650', 'lgm4[>)}]jT8n=CQ', 'id16643964_sqlhosted');
 ?>   
 <?php
 if(isset($_GET['edit'])){

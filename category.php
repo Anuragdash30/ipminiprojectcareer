@@ -9,7 +9,7 @@ if (isset($_SESSION['Username'])) {
 
 
 
-$db = mysqli_connect('sql12.freemysqlhosting.net', 'sql12381650', 'AcbcLhuB5u', 'sql12381650');
+$db = mysqli_connect('localhost', 'id16643964_sql12381650', 'lgm4[>)}]jT8n=CQ', 'id16643964_sqlhosted');
 $Username=$_SESSION['Username'];
 $idse = "select * from users where Username='$Username'";
 $ansresults = mysqli_query($db,$idse);

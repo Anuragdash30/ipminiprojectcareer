@@ -6,7 +6,7 @@
   {
     header('location: admin_page.php');
   }
-    $comn=mysqli_connect('sql12.freemysqlhosting.net', 'sql12381650', 'AcbcLhuB5u', 'sql12381650');
+    $comn=mysqli_connect('localhost', 'id16643964_sql12381650', 'lgm4[>)}]jT8n=CQ', 'id16643964_sqlhosted');
    
     $name= $_SESSION['Username'];
     $idse = "select * from users where Username='$name'";
@@ -24,7 +24,7 @@
       }
     }
     
-    $con=mysqli_connect('sql12.freemysqlhosting.net', 'sql12381650', 'AcbcLhuB5u', 'sql12381650');
+    $con=mysqli_connect('localhost', 'id16643964_sql12381650', 'lgm4[>)}]jT8n=CQ', 'id16643964_sqlhosted');
   
     
   }
